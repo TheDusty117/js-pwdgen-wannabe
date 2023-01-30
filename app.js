@@ -4,7 +4,7 @@
 
 let name = prompt ("quale e' il tuo nome?")
 
-document.getElementById("main_title").value = name
+document.getElementById("main_title").innerHTML = name
 // chiedi il cognome utente
 
 let lastName = prompt ("qual e' il tuo cognome?")
